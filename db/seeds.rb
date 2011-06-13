@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+nse = StockExchange.create([{:name => 'Nairobi Stock Exchange'}])
+
+kakuzi = Stock.create([{:name => 'Kakuzi Limited', :stock_symbol => 'KAZU', :stock_exchange_id => nse.id }])

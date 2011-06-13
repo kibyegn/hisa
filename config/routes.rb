@@ -1,4 +1,12 @@
 Hisa::Application.routes.draw do
+  resources :stock_exchanges, :only => [:index, :new, :create, :destroy]
+
+  resources :stock, :only => [:index, :new, :create, :destroy]
+  
+  resources :stock_price, :only => [:index, :new, :create, :destroy]
+
+  root :to => "stock_exchange#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

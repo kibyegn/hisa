@@ -14,7 +14,7 @@ development:
   database: hisa_development
   pool: 5
   username: kibet
-  password: serenity
+  password: seren!ty
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -40,7 +40,7 @@ test:
   database: hisa_test
   pool: 5
   username: kibet
-  password: serenity
+  password: seren!ty
 
 production:
   adapter: postgresql
@@ -48,4 +48,4 @@ production:
   database: hisa_production
   pool: 5
   username: kibet
-  password: serenity
+  password: seren!ty

@@ -7,12 +7,15 @@ gem 'rails', '3.0.5'
 
 gem 'pg'
 gem 'mechanize'
+gem 'rufus-scheduler'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'autotest'
   gem 'cucumber-rails'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'web-app-theme'
 end
 
 # Use unicorn as the web server
