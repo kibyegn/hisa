@@ -1,13 +1,6 @@
-<div class="block">
-  <div class="secondary-navigation">
-    <ul class="wat-cf">
-      <li class="first active"><%= link_to "#{t("web-app-theme.list", :default => "List")}", stock_exchanges_path  %></li>
-    </ul>
-  </div>          
-  <div class="content">          
-    <h2 class="title">Stock Exchanges</h2>
-    <div class="inner">
-      <table class="table">
+<div class="block">        
+  <h2 class="title">Stock Exchanges</h2>
+    <table class="table">
         <% @stock_exchanges.each do |stock_exchange| -%>
         <tr class="<%= cycle("odd", "even") %>">
           <td>

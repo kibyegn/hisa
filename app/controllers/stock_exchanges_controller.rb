@@ -17,5 +17,10 @@ class StockExchangesController < ApplicationController
 
   def destroy
   end
+  
+  def show
+    @stock_exchange = StockExchange.find(params[:id])
+    @exchange_listings = @stock_exchange.stocks
+  end
 
 end

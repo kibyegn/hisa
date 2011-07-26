@@ -1,4 +1,12 @@
 Hisa::Application.routes.draw do
+  get "home/index"
+
+  get "home/about"
+
+  get "home/contact"
+
+  get "home/tos"
+
   resources :stock_exchanges, :only => [:index, :new, :create, :destroy]
 
   resources :stocks, :only => [:index, :new, :create, :destroy]

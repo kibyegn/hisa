@@ -6,9 +6,11 @@ gem 'rails', '3.0.5'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'devise'
 gem 'mechanize'
 gem 'rufus-scheduler'
 gem 'nokogiri'
+gem 'haml'
 
 group :development, :test do
   gem 'autotest'
