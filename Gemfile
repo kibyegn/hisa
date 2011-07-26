@@ -18,6 +18,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'web-app-theme'
+  gem 'hpricot'
 end
 
 # Use unicorn as the web server
