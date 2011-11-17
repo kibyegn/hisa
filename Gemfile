@@ -10,7 +10,6 @@ gem 'devise'
 gem 'mechanize'
 gem 'rufus-scheduler'
 gem 'nokogiri'
-gem 'haml'
 
 group :development, :test do
   gem 'autotest'
